@@ -1,0 +1,12 @@
+.reservationIntoContainer {
+    display: flex;
+    position: relative;
+    left: 13rem;
+    top: 21rem;
+    gap: 6rem; /*The gap helped smaller the justify-content: space-between gap*/
+  }
+  
+  #blueberryBike {
+    width: 32%;
+  }
+

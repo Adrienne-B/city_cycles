@@ -1,8 +1,37 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 .App {
-  text-align: center;
+  
+    /* height: 100vh; */
+  /* text-align: center; */
+  /* margin: 0;
+  padding: 0; */
+  
+  /* overflow-y: hidden; */
+
+  min-height: 100vh; /* Look, it's not fixed anymore! */
+  display: flex;
+  /* flex-direction: column; */
 }
 
-.App-logo {
+
+
+/* .App {
+    margin:0;
+    padding:0;
+   overflow-x:hidden; */
+    /*prevents white space from the right side*/
+/* } */
+
+/* 
+.homepage h5 {
+  word-break: break-all;
+  width: 55%;
+} */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

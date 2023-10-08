@@ -1,0 +1,132 @@
+#blogBanner {
+    position: relative;
+    width: 100%;
+    /* height: 70vh; */
+    min-height: 68vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay { 
+        background: rgba(0, 0, 0, 0.5);
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        /* background-size: cover;
+        /*min-height: 490px;*/
+        /* width: 100%;	 */
+}
+  .Blog h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 8rem;
+  }
+
+  .blogSubtitle {
+    color: white;
+    position: relative;
+    left: 24rem;
+    top: 9rem;
+    text-align: center;
+    word-break: break-all;
+    width: 33%;
+  }
+
+                                        /*THE END OF THE BLOG BANNER*/
+.Article {
+ min-height: 100vh;
+}
+
+  .Article .headerContainer {
+    position: relative;
+    left: 5rem;
+    top: 25rem;
+  }
+
+  .Article .Published {
+    position: relative;
+    top: 1.3rem;
+    font-size:8px;
+  }
+
+  .PublisherContainer {
+    display: flex;
+    position: relative;
+    left: 5rem;
+    top: 25rem;
+  }
+
+  .PublisherInfo {
+    position: relative;
+    left: 1rem;
+    top: 25rem;
+  }
+
+  .PublisherInfo h6{
+    position: relative;
+    left: 11rem;
+    color: black;
+    top: -5rem;
+  }
+
+  .PublisherInfo h5{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    position: relative;
+    left: 11rem;
+    top: -6.7rem;
+    color: black;
+  }
+
+
+
+
+                                  /*THE END OF THE PUBLISHER INTRO*/
+
+                                    /* flex-wrap: wrap; */
+
+  .ArticleParagraph {
+    margin-bottom: 34px;
+  }  
+
+   .ArticleContainer {
+    display: flex;
+    /* justify-content: space-around;
+    position: relative;*/
+    top: -11rem; 
+/* margin-bottom: -34px; */
+position: relative;
+left: 15rem;
+top: 14rem;
+
+
+     /* position: absolute;
+    bottom: 0;  */
+  } 
+ 
+  .one {
+    position: relative;
+    left: -10rem;
+    top: 6rem;
+    word-break: break-all;
+    width: 58%;
+
+  }
+
+  .two {
+    position: relative;
+    left: -22rem;
+    top: -8rem;
+
+
+    word-break: break-all;
+    width: 74%;  
+  } 
+
+
+

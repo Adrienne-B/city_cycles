@@ -1,0 +1,26 @@
+
+.Home {
+    position: relative;
+    width: 100%;
+    min-height: 68vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .homeContainer h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    position: relative;
+    top: 8rem;
+  }
+
+  .homeContainer h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 8rem;
+  }

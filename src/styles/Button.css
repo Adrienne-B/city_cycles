@@ -1,0 +1,31 @@
+
+Button {
+    display: flex;
+    justify-content: end;
+}
+
+
+Button {
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #8F6B5F;
+    height: 40px;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    position: relative;
+    left: 48.2rem;
+    top: 15rem;
+  }
+
+  h4 {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: -0.85rem;
+    top: -0.57rem;
+  }

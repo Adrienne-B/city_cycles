@@ -1,0 +1,87 @@
+.aboutContainer {
+    background-attachment: fixed;
+    background-color: #8CAE97;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    /* height: 70vh; */
+    min-height: 68vh;
+    top: 1rem;
+}
+
+#Building {
+    height: 49vh;
+    width: 40%;
+    position: relative;
+    left: 10rem;
+    top: 4rem;
+}
+
+.aboutCard {
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: flex;
+   position: absolute; /*Popped the card ontop of the picture*/
+   height: 40vh;
+   width: 40%;
+   left: 35rem;
+   top: 5.7rem;
+}
+
+.aboutCard h1 {
+  text-align: center;
+  position: relative;
+  top: 1.3rem;
+  color: #8F6B5F;
+  left: 9rem;
+}
+
+.aboutCard h5 {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    left: -4rem;
+    color: #CBB8B4;
+    word-break: break-all;
+    width: 68%;
+    
+  } 
+
+                                 /*Section of the team*/ 
+
+  .teamContainer{
+    padding-top: 3rem;
+}
+
+  .teamContainer h2 {
+    color: #8F6B5F;
+  }
+
+  .teamContainer h5 {
+    color: #CBB8B4;
+  }
+
+  .team{
+    position: relative;
+    top: 4rem;
+  }
+
+  .teamMembers {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+  }
+
+  .Names {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    /*margin-bottom: -16rem;*/ /*This made the white space b/w the names and footer smaller BUT there is still a problem with whitee spae underneath the footer*/
+  }
+
+  .Names h4 {
+    color: #8F6B5F;  
+    position: relative;
+    top: 4rem;
+  }
