@@ -13,7 +13,7 @@ function Home() {
             <h5>If you are looking for a quick ride to any destination
             and attraction then City Cycles is the palce to be.<br></br> One of the most
             popular places to get a bike.</h5>
-            </div>
+          </div>
             {/* </div> */}
         <ReservationIntro />
       </div>

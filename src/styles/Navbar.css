@@ -26,25 +26,29 @@ a {
   text-decoration: none; /*Removes lines underneath tab names.*/
 }
 
-.Navbar:hover {
-  color: #fff;
+a:hover {
+  color: rgb(23, 46, 253);
 } 
 
-.Navbar::after {
+ li a::after {
   content: '';
+  /* position: absolute; */
+  background-color: blue;
   height: 2px;
-  width: 100%;
-  background: rgba(0, 183, 255);
-  position: absolute;
-  left: 0;
+  width: 0%;
+  /* background: rgba(0, 183, 255); */
+  /* left: 0;
   bottom: -8px;
-  opacity: 0;
+  opacity: 0; */
+  display: block;
   transition: all 0.2s;
   pointer-events: none;
 }
 
-.Navbar::hover::after {
-  opacity: 1;
+li a:hover:after {
+  /* opacity: 1; */
+  width: 100%;
+  transition: width 0.3s linear;
 }
 
 /* 
