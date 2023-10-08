@@ -1,3 +1,58 @@
+# City Cycles
+I created a personalize UX/UI template from a UX/UI course from skillcrush;  I wanted to challenge myself and create a website using react.js.
+
+## Summary
+Recreating a fictional website in hopes to gain more customers with a better experience when surfing through the website;
+
+### Software used:
+Visual Studio Code 
+Bootstrap
+
+### What I learn:
+### Sources I used to help me on unexpected obstacles were: FreeCodeCamp, Youtubem Google, Dev Community, nextjs.org, Stack Overflow, and Hithub
+Make sure that you have enough disk space. Depending on how much your website that you are creating in react.js, it can override the limits of your disk space. Clean your cookies, desktop, 
+unnecessary downloads in your computer etc.
+
+Make sure that you update your Node.js.
+
+Make sure you put alt="" with information in the strings in regards to importing pictures for your website. It may not seem of importance, but it can help a developer or user read the description of the picture or pictures that you have.
+
+Sometimes you have to unintall and then reintall node_modules and package.json for your website to work again. Make sure you use cashe clean --force right after.
+
+#### Challenges to improve on:
+1. How to make animate.css for websites to work
+
+#### Random Unexpected Challenges:
+1. When I first started building up the website, it wouldnt show on the browser. 
+2. Everything was squeezed together and wouldnot spread out.
+
+#### Solutions/solving the issue:
+1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finnaly showed but then there was another problem.
+2. I realized I had margin: with a small number which was a typo. Once I deleted that it spreaded out perfectly.
+
+#### Weakness so far:
+1.	flexbox is my weakness
+
+
+Credited: https://www.youtube.com/watch?v=TId6holGVeY
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
