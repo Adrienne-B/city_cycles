@@ -16,16 +16,19 @@ Button {
     color: white;
     text-decoration: none;
     font-size: 20px;
-
     position: relative;
-    left: 48.2rem;
-    top: 15rem;
+    left: 45.0rem;
+    top: 33rem;
+  }
+
+  Button:hover {
+    background-color: #b88a7b;
   }
 
   h4 {
     font-size: 15px;
     color: white;
     position: relative;
-    left: -0.85rem;
+    left: -0.83rem;
     top: -0.57rem;
   }

@@ -3,6 +3,7 @@ import Publisher from "../images/jennifer_reed.png"
 
 function Article() {
   return (
+    <div className='ArticleSection'>
     <div className="Article">
         <div className="headerContainer">
             <h6 className="Published">25 March 2023 * 3 min read</h6>
@@ -31,7 +32,6 @@ function Article() {
          
             <br/>
             <br/>
-            <br/>
           
             Built specifically for mountain bikes, a flow trail emphasizes <br/> speed
             and rhythm, featuring berms, rollers, jumps and other <br />
@@ -53,8 +53,6 @@ function Article() {
 
             <br/>
             <br/>
-            <br/>
-            
           
             The flowiest trails of the mountain! There are actually three trails <br />  which make up the 
             loop: Horse Creek-Cattle Creek-Lower Twin Lake. <br /> Hymasa is a bit easier, so if you are
@@ -67,7 +65,9 @@ function Article() {
    </div>
 </div>
 
-  )
+</div>
+
+  );
 }
 
 export default Article

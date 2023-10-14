@@ -1,12 +1,43 @@
+/* 
+.reservationIntro {
+  padding-top: 14rem;
+} */
+
+
+.ReservationsContainer {
+  background-color: black;
+}
+
+
 .reservationIntoContainer {
     display: flex;
     position: relative;
-    left: 13rem;
-    top: 21rem;
+    /* left: 13rem; */
+    /* top: 21rem; */
+    top: 16rem;
     gap: 6rem; /*The gap helped smaller the justify-content: space-between gap*/
+    background-color: white;
+    padding-left: 16rem;
+    padding-bottom: 18rem; /*to cover white space*/
+    margin-bottom: -37rem;
   }
   
   #blueberryBike {
+    padding-top: 6rem;
     width: 32%;
   }
 
+  .reservationIntroContainer h2 {
+    position: relative;
+    top: 6rem;
+  }
+
+  .reservationIntroContainer p {
+    position: relative;
+    top: 5rem;
+  }
+
+  .Button {
+    position: relative;
+    top: -2rem;
+  }

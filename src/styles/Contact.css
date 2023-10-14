@@ -234,18 +234,16 @@ form button {
   left: 13rem;
 }
 
-.ContactBox {
-  position: relative;
-  top: -5rem;
-}
-
 .Contact {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 125vh; */
+    min-height: 145vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin-bottom: -34rem; /*Took the white space from under contact and over footer*/
     /* position: absolute;
 
 
@@ -258,7 +256,8 @@ form button {
     min-height: 57vh;
     background-attachment: fixed;
     background-color: #8CAE97;
-    top: 6rem;
+    /* top: 6rem; */
+    top: 10rem;
   } 
 
   .Title {
@@ -269,14 +268,14 @@ form button {
   .Title h1{
     padding-bottom: 2rem;
     position: relative;
-    top: -10rem;
+    top: -14rem;
     color: #fff;
   }
   
 
   .comment-form {
     position: relative;
-    top: -11.4rem;
+    top: -14rem;
   
   }
 
