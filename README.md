@@ -17,18 +17,20 @@ Make sure that you update your Node.js.
 
 Make sure you put alt="" with information in the strings in regards to importing pictures for your website. It may not seem of importance, but it can help a developer or user read the description of the picture or pictures that you have.
 
-Sometimes you have to unintall and then reintall node_modules and package.json for your website to work again. Make sure you use cashe clean --force right after.
+Sometimes you have to uninstall and then reinstall node_modules and package.json for your website to work again. Make sure you use cashe clean --force right after.
 
 #### Challenges to improve on:
 1. How to make animate.css for websites to work
 
 #### Random Unexpected Challenges:
-1. When I first started building up the website, it wouldnt show on the browser. 
-2. Everything was squeezed together and wouldnot spread out.
+1. When I first started building up the website, it wouldn't show on the browser. 
+2. Everything was squeezed together and would not spread out.
+3. The button in the home page of the website would not direct itself to the reservation page that allows customers to select a bike.
 
 #### Solutions/solving the issue:
-1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finnaly showed but then there was another problem.
-2. I realized I had margin: with a small number which was a typo. Once I deleted that it spreaded out perfectly.
+1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finally showed but then there was another problem.
+2. I realized I had margin: with a small number which was a typo. Once I deleted that it spread out perfectly.
+3. I realized that I did not have the reservation file in the route/router (where I had my navigation elements in) and I didn't it from the original final it was in.
 
 #### Weakness so far:
 1.	flexbox is my weakness
