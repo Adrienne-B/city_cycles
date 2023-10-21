@@ -52,7 +52,7 @@ function Contact() {
                <textarea name="" class="form-control" cols="47" rows="7" placeholder="Message"></textarea>
             </div>
             <div className="col-md-12 form-group">
-              <button className="btn btn-block btn-lg btn-success">
+              <button id="buttonContact" className="btn btn-block btn-lg btn-success">
               <h5>Button</h5></button>
            </div>        
            </div>

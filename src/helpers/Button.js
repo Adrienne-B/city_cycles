@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/Button.css';
-import about from '../pages/About';
+import Reservation from '../pages/Reservation';
 
 function Button() {
   return (
     <div className='Button'>
-      <Link to="/About">
+      <Link to="/Reservation">
         <button>
           <h4 className='Click'>Click Here!</h4>
         </button>

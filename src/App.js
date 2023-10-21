@@ -8,7 +8,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
-
+import Reservation from './pages/Reservation'
 
 import Footer from './components/Footer'
 
@@ -22,6 +22,7 @@ function App() {
             <Route path='/about' element={<About />}></Route>
             <Route path="/blog" element={<Blog />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/reservation" element={<Reservation />}></Route>
         </Routes>
        <Footer />
       </BrowserRouter>

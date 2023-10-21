@@ -222,6 +222,338 @@ form button {
 } */
 
 .Address {
+    color: #fff;
+    position: relative;
+    left: 6rem;
+    top: 7.5rem;
+  }
+  
+  .Time p {
+    position: relative;
+    top: -7rem;
+    left: 13rem;
+  }
+  
+  .Contact {
+      position: relative;
+      width: 100%;
+      /* min-height: 125vh; */
+      min-height: 145vh;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      margin-bottom: -34rem; /*Took the white space from under contact and over footer*/
+      /* position: absolute;
+  
+  
+      display: flex; */
+    }
+  
+    .colorBoxTwo {
+      position: relative;
+      width: 100%;
+      min-height: 57vh;
+      background-attachment: fixed;
+      background-color: #8CAE97;
+      /* top: 6rem; */
+      top: 10rem;
+    } 
+  
+    .Title {
+      position: relative;
+      left: 49rem;
+    }
+  
+    .Title h1{
+      padding-bottom: 2rem;
+      position: relative;
+      top: -14rem;
+      color: #fff;
+    }
+    
+  
+    .comment-form {
+      position: relative;
+      top: -14rem;
+    
+    }
+  
+  
+  .clearfix {
+    position: relative;
+    top: 4rem;
+    left: -24.8rem;
+    }
+    
+  .row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 43rem;
+  }
+  
+  #Email {
+    position: relative;
+    left: -0.7rem;
+   }
+  
+  .post {
+    padding: 0 1.5% /* matches the column and -margin values */
+    
+  }
+  .comment-form .form-control {
+    border: 0px;
+    background: #fff;
+    min-height: 30px; /* make the .form-control taller */
+  }
+  
+  .comment-form > .row {
+    margin: 0 -1.5%; /* negative margin on row for new, fluid gutter */
+  }
+  .comment-form [class*="col-"] {
+        padding: 0 1.5% /* new fluid gutter to tighten up the space between col-X-6 */
+  }
+  
+  .btn {
+    position: absolute;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #078249;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    left: 8.6rem;
+    top: 9rem;
+  }
+
+  /* .Contact {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+
+    display: flex;
+  } */
+
+  /* .colorBoxTwo {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-color: #8CAE97;
+    top: 6rem;
+
+  }  */
+
+  /* .Contact .leftSide {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
+
+
+/* 
+  
+  .Contact .leftSide {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+.leftSide h3 {
+  color: #fff;
+}
+
+.Contact .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+/* } */
+/* 
+.Contact .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  position: relative;
+  left: 45rem;
+  top: -12rem;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+
+
+
+  position: relative;
+  left: 34rem;
+  top: -13rem;
+}
+
+form input {
+  height: 40px;
+  width: 20%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+form textarea {
+  margin-top: 15px;
+  height: 70px;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 15px;
+  color: grey;
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+} */
+
+
+/* .contact {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ */
+
+
+  /* display: flex; */
+    /* position: absolute; */
+/* } */
+
+/* .contact .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  NNNNNNNNNNNNNNNNNEEEEEEEEEEEEEEEEEEDDDD
+} */
+
+/* .contact .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex; */
+
+
+
+
+
+
+  /* flex-direction: column;
+  justify-content: center; */
+/* } */
+
+/* .contact .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+form input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+form textarea {
+  margin-top: 15px;
+  height: 70px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 15px;
+  color: grey;
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+} */
+
+.Address {
   color: #fff;
   position: relative;
   left: 6rem;
@@ -330,6 +662,10 @@ form button {
   top: 9rem;
 }
 
+#buttonContact:hover {
+    background-color: #06713f;
+}
+
 .btn h5 {
   position: absolute;
   color: #fff;
@@ -338,4 +674,11 @@ form button {
   top: -1.5rem;
 }
 
-
+  
+  .btn h5 {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    left: 1.7rem;
+    top: -1.5rem;
+  }

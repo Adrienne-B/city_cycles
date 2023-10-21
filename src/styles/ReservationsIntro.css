@@ -24,20 +24,26 @@
   
   #blueberryBike {
     padding-top: 6rem;
-    width: 32%;
+    width: 35%;
+    position: relative;
+    left: -3rem;
   }
 
   .reservationIntroContainer h2 {
     position: relative;
     top: 6rem;
+    left: -1rem;
+    font-size: 26px;
   }
 
   .reservationIntroContainer p {
     position: relative;
     top: 5rem;
+    left: -1rem;
   }
 
   .Button {
     position: relative;
-    top: -2rem;
+    top: -3rem;
+    left: 1.2rem;
   }
