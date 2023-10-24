@@ -1,0 +1,38 @@
+
+form.example input[type=text] {
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 16%;
+    padding: 7px;
+    background: #f1f1f1;
+    position: relative;
+    left: 31rem;
+    top: 8rem;
+    outline: none; /*Removes black lining from around the textbox*/
+  }
+  
+  /* form.example  */
+  #buttonHome {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  /* form.example */
+   #buttonHome:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

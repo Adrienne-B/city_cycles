@@ -638,6 +638,7 @@ form button {
   border: 0px;
   background: #fff;
   min-height: 30px; /* make the .form-control taller */
+  outline: none; /*Removes black lining around the textbox*/
 }
 
 .comment-form > .row {
