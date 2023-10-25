@@ -7,16 +7,16 @@ import React from 'react'
 
 function ReservationItem({images, name,  description, price}) {
   return (
-    <div className='reservationItem'>
+    <div style={{paddingLeft: "11rem", paddingTop: "7rem"}} className='reservationItem'>
          {/* <div style={{ backgroundImage: `url(${images})` }}> </div> */}
         {/* <div><img src={Blueberry} alt="berry"/></div>
         <div><img src={Wendy} alt="wendy"/></div>
         <div><img src={Bee} alt="bee"/></div>
         <div><img src={Sunset} alt="bee"/></div> */}
-        <div><img src={images} alt="image" /></div>
+        <div><img style={{boxShadow: "2px 2px #999"}} src={images} alt="image" /></div>
         {/* <div>{images}</div> */}
         <h6 style={{fontSize: "18px"}}>{name}</h6>
-        <h5 style={{color: "#7A7C83"}}>{description}</h5>
+        <h5 style={{color: "#7A7C83", wordBreak: "break-all",  width: "18rem"}}>{description}</h5>
         <p style={{fontWeight: "bold"}}>${price}</p>
     </div> 
   )
