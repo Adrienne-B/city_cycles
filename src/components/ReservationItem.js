@@ -13,6 +13,7 @@ function ReservationItem({images, name,  description, price}) {
         <center><h6 style={{fontSize: "18px"}}>{name}</h6></center>
         <center><h5 style={{color: "#7A7C83", wordBreak: "break-all",  width: "18rem"}}>{description}</h5></center>
         <center><p style={{fontWeight: "bold"}}>${price}</p></center>
+        <button id="Reservation" style={{  backgroundColor: "#5F8575", left: "12rem", top: "1rem"}} type="submit">Click Here</button>
 
         {/* <button style={{ backgroundColor: "rgb(102, 147, 116)", borderRadius: '16px',  border: 'none', outline: 'none', height: '25px', width: '110px' }}>Click Here</button> */}
 
