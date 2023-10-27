@@ -15,7 +15,7 @@ unnecessary downloads in your computer etc.
 
 Make sure that you update your Node.js.
 
-Make sure you put alt="" with information in the strings in regards to importing pictures for your website. It may not seem of importance, but it can help a developer or user read the description of the picture or pictures that you have.
+Make sure you put alt="" with information in the strings in regards to importing pictures for your website. It may not seem of important, but it can help a developer or user read the description of the picture or pictures that you have.
 
 Sometimes you have to uninstall and then reinstall node_modules and package.json for your website to work again. Make sure you use cashe clean --force right after.
 
@@ -26,13 +26,15 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 1. When I first started building up the website, it wouldn't show on the browser. 
 2. Everything was squeezed together and would not spread out.
 3. The button on the home page of the website would not direct itself to the reservation page that allows customers to select a bike.
-4. Reservation style sheet wasn't showcasing the effect for the Reservation page.
+4. The reservation style sheet didn't showcase the effect of the Reservation page.
+5. Following a timeline in a YouTube video on how to do arrayList mapping <div>{image}</div> would not showcase my four bikes from the ReservationItem page. I tried <img src={require('/images/imageName.png')} /> in the ReservationList page and it still didn't work.
 
 #### Solutions/solving the issue:
-1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finally showed but then there was another problem.
+1. I had to cancel the Visual Studio Code and then reopen it to the website foldery. It finally showed but then there was another problem.
 2. I realized I had margin: with a small number which was a typo. Once I deleted that it spread out perfectly.
-3. I realized that I did not have the reservation file in the route/router (where I had my navigation elements in) and I didn't it from the original final it was in.
-4.  I had to input style int he html instead.
+3. I realized that I did not have the reservation file in the route/router (where I had my navigation elements in) and I didn't have it from the original final it was in.
+4.  I had to input style in the html instead.
+5. I had to put <div><img src={images} alt="whatever description for the picture" /></div>, which allowed all of my four bikes to showcase in the browser.
 
 #### Weakness so far:
 1.	flexbox is my weakness
