@@ -26,11 +26,13 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 1. When I first started building up the website, it wouldn't show on the browser. 
 2. Everything was squeezed together and would not spread out.
 3. The button on the home page of the website would not direct itself to the reservation page that allows customers to select a bike.
+4. Reservation style sheet wasn't showcasing the effect for the Reservation page.
 
 #### Solutions/solving the issue:
 1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finally showed but then there was another problem.
 2. I realized I had margin: with a small number which was a typo. Once I deleted that it spread out perfectly.
 3. I realized that I did not have the reservation file in the route/router (where I had my navigation elements in) and I didn't it from the original final it was in.
+4.  I had to input style int he html instead.
 
 #### Weakness so far:
 1.	flexbox is my weakness
