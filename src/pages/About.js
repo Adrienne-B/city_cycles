@@ -9,7 +9,7 @@ function About() {
     <div className="About">
       <div className="aboutContainer"> {/*Green background*/}
         <div className='picture'>
-          <img src="" id="Building" src={Building} />
+          <img id="Building" src={Building} alt="building of City Cyles" />
       
       <div className='aboutCard'>
             <h1>About Us</h1>

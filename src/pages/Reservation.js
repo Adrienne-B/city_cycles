@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReservationList } from '../helpers/ReservationList'
 import ReservationItems from '../components/ReservationItem'
-import '../styles/ReservationStyle.css';
+// import '../styles/Reservation.css';
 
 
 function Reservation() {
@@ -10,8 +10,8 @@ function Reservation() {
       <div className="reservationContainer">
         <h3 style={{backgroundColor: "#032A18", height:"5rem", color:"white", paddingTop:"2.5rem", paddingLeft:"18rem"}}>We’re so excited you want to ride with us. Make a reservation <u>here!</u></h3>
       </div>
-      <div className='reservationList'>
-        {ReservationList.map((reservationItem, key) => {
+      <div style = {{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }} className='reservationList'>
+        {ReservationList && ReservationList.map((reservationItem, key) => {
           return (
             <ReservationItems 
               key={key} 
