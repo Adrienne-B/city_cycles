@@ -25,7 +25,7 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 #### Random Unexpected Challenges:
 1. When I first started building up the website, it wouldn't show on the browser. 
 2. Everything was squeezed together and would not spread out.
-3. The button in the home page of the website would not direct itself to the reservation page that allows customers to select a bike.
+3. The button on the home page of the website would not direct itself to the reservation page that allows customers to select a bike.
 
 #### Solutions/solving the issue:
 1. I had to cancel the Visual Studio Code out and then reopen it to the website foldery. It finally showed but then there was another problem.
