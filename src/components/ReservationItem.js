@@ -1,18 +1,21 @@
 import React from 'react'
-// import '../styles/Reservation.css';
+
 
 
 // import Bee from "../images/bee_stinger.png";
 console.log(ReservationItem); 
 function ReservationItem({images, name,  description, price}) {
   return (
-    <div style={{paddingLeft: "11rem", paddingTop: "7rem"}} className='reservationItem'>
+    <div style={{ paddingLeft: "6rem", paddingTop: "9rem"}} className='reservationItem'>
          {/* <div style={{ backgroundImage: `url(${images})` }}> </div> */}
   
-        <div style={{height: '220px'}}><img src={images} alt="images of bikes" /></div>
-        <h6 style={{fontSize: "18px"}}>{name}</h6>
-        <h5 style={{color: "#7A7C83", wordBreak: "break-all",  width: "18rem"}}>{description}</h5>
-        <p style={{fontWeight: "bold"}}>${price}</p>
+       <center><div style={{height: '220px'}}><img src={images} alt="images of bikes" /></div></center> 
+        <center><h6 style={{fontSize: "18px"}}>{name}</h6></center>
+        <center><h5 style={{color: "#7A7C83", wordBreak: "break-all",  width: "18rem"}}>{description}</h5></center>
+        <center><p style={{fontWeight: "bold"}}>${price}</p></center>
+
+        {/* <button style={{ backgroundColor: "rgb(102, 147, 116)", borderRadius: '16px',  border: 'none', outline: 'none', height: '25px', width: '110px' }}>Click Here</button> */}
+
     </div> 
   )
 }
