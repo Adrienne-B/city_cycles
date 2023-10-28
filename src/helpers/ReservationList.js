@@ -3,6 +3,7 @@ import Wendy from "../images/Wendy.png"
 import Bee from "../images/Bee.png";
 import Blackout from "../images/Blackout.png";
 
+
 export const ReservationList = [
     {
         images: BlueSky,
@@ -30,4 +31,4 @@ export const ReservationList = [
     },
 ];
 
-  // <img src={require('/images/blueberry_benz.png')} />,
+  // <img src={require('/images/blueberry_benz.png')} />, This method didnt workout to showcase images on the browser.

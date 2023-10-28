@@ -3,12 +3,12 @@ import Logo from '../images/Logo.png';
 import {Link} from "react-router-dom";
 import '../styles/Navbar.css';
 
+
 function Navbar() {
   return (
     <div className="Navbar">
       <div className="Logo">
         <img class="Logo" alt="logo" src={Logo}/>
-        {/* <img style={{ width: 145 }} src={Logo}/> */}
       </div>
 
       <div className="rightSide">
@@ -22,7 +22,6 @@ function Navbar() {
           <li>
             <Link to="/Blog">Blog</Link>
           </li>
-            {/* <Link to="/reservations">Reservations</Link> */}
           <li>
             <Link to="/Contact">Contact</Link>
           </li>

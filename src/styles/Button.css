@@ -1,34 +1,33 @@
 
 Button {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
-
 Button {
-    color: white;
-    border: none;
-    border-radius: 16px;
-    cursor: pointer;
-    background-color: #8F6B5F;
-    height: 40px;
-    width: 120px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    position: relative;
-    left: 17.0rem;
-    top: 33rem;
-  }
+  color: white;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #8F6B5F;
+  height: 40px;
+  width: 120px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  left: 17.0rem;
+  top: 33rem;
+}
 
-  Button:hover {
-    background-color: #b88a7b;
-  }
+Button:hover {
+  background-color: #b88a7b;
+}
 
-  h4 {
-    font-size: 15px;
-    color: white;
-    position: relative;
-    left: -0.83rem;
-    top: -0.57rem;
-  }
+ h4 {
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: -0.83rem;
+  top: -0.57rem;
+}

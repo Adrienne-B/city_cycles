@@ -1,49 +1,40 @@
-/* 
-.reservationIntro {
-  padding-top: 14rem;
-} */
-
-
 .ReservationsContainer {
   background-color: black;
 }
 
-
 .reservationIntoContainer {
-    display: flex;
-    position: relative;
-    /* left: 13rem; */
-    /* top: 21rem; */
-    top: 16rem;
-    gap: 6rem; /*The gap helped smaller the justify-content: space-between gap*/
-    background-color: white;
-    padding-left: 16rem;
-    padding-bottom: 18rem; /*to cover white space*/
-    margin-bottom: -37rem;
-  }
+  display: flex;
+  position: relative;
+  top: 16rem;
+  gap: 6rem; /*The gap helped smaller the justify-content: space-between gap*/
+  background-color: white;
+  padding-left: 16rem;
+  padding-bottom: 18rem; /*to cover white space*/
+  margin-bottom: -37rem;
+}
   
-  #blueberryBike {
-    padding-top: 6rem;
-    width: 35%;
-    position: relative;
-    left: -3rem;
-  }
+#blueberryBike {
+  padding-top: 6rem;
+  width: 35%;
+  position: relative;
+  left: -3rem;
+}
 
-  .reservationIntroContainer h2 {
-    position: relative;
-    top: 6rem;
-    left: -1rem;
-    font-size: 26px;
-  }
+.reservationIntroContainer h2 {
+  position: relative;
+  top: 6rem;
+  left: -1rem;
+  font-size: 26px;
+}
 
-  .reservationIntroContainer p {
-    position: relative;
-    top: 5rem;
-    left: -1rem;
-  }
+.reservationIntroContainer p {
+  position: relative;
+  top: 5rem;
+  left: -1rem;
+}
 
-  .Button {
-    position: relative;
-    top: -3rem;
-    left: 1.2rem;
-  }
+.Button {
+  position: relative;
+  top: -3rem;
+  left: 1.2rem;
+}

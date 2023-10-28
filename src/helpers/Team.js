@@ -1,8 +1,8 @@
 import React from 'react'
-
 import Johnathan from '../images/johnathan_smith.png';
 import Berry from "../images/berry_ike.png";
 import Deanna from "../images/deanna_wong.png";
+
 
 function Team() {
   return (
@@ -27,22 +27,20 @@ function Team() {
         </div>
     </div>
 
-                {/*4 end divs were here but i replace them  under deanna wong to test */}
-
         <div className="membersNames">
             <div className="Names">
                 <h4>Johnathan Smith</h4>
-    
-            <div className="Names"> 
-                <h4>Berry Ike</h4>
+        
+                <div className="Names"> 
+                    <h4>Berry Ike</h4>
 
-            <div className='Names'>
-                <h4>Deanna Wong</h4> 
-            </div>
-        </div> 
+                <div className='Names'>
+                    <h4>Deanna Wong</h4> 
+                </div>
+            </div> 
+        </div>
     </div>
-    </div>
-    </div>
+ </div>
   )
 }
 

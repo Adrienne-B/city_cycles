@@ -1,10 +1,11 @@
 import React from 'react'
 import Publisher from "../images/jennifer_reed.png"
 
+
 function Article() {
   return (
     <div className='ArticleSection'>
-    <div className="Article">
+      <div className="Article">
         <div className="headerContainer">
             <h6 className="Published">25 March 2023 * 3 min read</h6>
             <h3 className="ArticleTitle">Best Local Bike Routes</h3>

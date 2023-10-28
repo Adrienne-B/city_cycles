@@ -5,11 +5,9 @@ import '../styles/Contact.css'
 
 function Contact() {
   return (
-
       <div className="Contact" style={{ backgroundImage: `url(${ ContactBanner})` }}>
    
        <div className='colorBoxTwo'>
-    
          <div className='Address'>
             <h3>Address</h3>
             <h5>4921 Terrance Blvd <br />
@@ -26,15 +24,12 @@ function Contact() {
             </div>
          </div>
 
-
-
 <div className="ContactBox">
       <div className="Title">
          <h1>Contact Us</h1>
       </div>
 
       <form className="comment-form">
-
          <div className="row">
             <div className="col-sm-6 form-group">
                {/* <label className="name">Use Your Real Name</label> */}

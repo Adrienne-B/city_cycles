@@ -4,6 +4,7 @@ import ReservationIntro from '../helpers/ReservationIntro';
 import '../styles/Home.css';
 import SearchBar from '../helpers/SearchBar';
 
+
 function Home() {
     return (
         <div className="Home"  style={{backgroundImage: `url(${BannerImage})`}}>
@@ -13,16 +14,7 @@ function Home() {
             <h5>If you are looking for a quick ride to any destination
             and attraction then City Cycles is the place to be.<br></br> One of the most
             popular places to get a bike.</h5>
-
             <SearchBar />
-
-            {/* <form class="example" action="action_page.php">
-            <input type="text" placeholder="Search..">
-            </input>
-            <button id="buttonHome" type="submit"><i class="fa fa-search"></i></button>
-            <i class="bi bi-search"></i>
-          </form> */}
-          
           </div> 
         <ReservationIntro />
       </div>

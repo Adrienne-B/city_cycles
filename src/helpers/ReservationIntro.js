@@ -3,6 +3,7 @@ import Blueberry from "../images/blueberry_benz.png";
 import Button from "../helpers/Button"
 import '../styles/ReservationsIntro.css';
 
+
 function ReservationIntro() {
   return (
     <div className='reservationIntro'>
