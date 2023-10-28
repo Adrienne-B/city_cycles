@@ -5,7 +5,7 @@ form.example input[type=text] {
     border: 1px solid grey;
     float: left;
     width: 16%;
-    padding: 7px;
+    padding: 9px;
     background: #f1f1f1;
     position: relative;
     left: 31rem;
@@ -35,4 +35,13 @@ form.example input[type=text] {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .css-i4bv87-MuiSvgIcon-root {
+    position: relative;
+    top: 8.3rem;
+    left: 16.8rem;
+    background-color: #416CD9;
+    border-radius: 50%;
+    cursor: pointer;
   }
