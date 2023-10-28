@@ -6,7 +6,7 @@ Recreating a fictional website in hopes to gain more customers with a better exp
 
 ### Software used:
 Visual Studio Code 
-Bootstrap
+[Bootstrap](https://mui.com/material-ui/material-icons/?query=magnify&selected=Search)
 
 ### What I learn:
 ### Sources I used to help me on unexpected obstacles were: FreeCodeCamp, Youtubem Google, Dev Community, nextjs.org, Stack Overflow, and GitHub
