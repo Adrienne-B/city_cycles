@@ -19,6 +19,8 @@ Make sure you put alt="" with information in the strings in regards to importing
 
 Sometimes you have to uninstall and then reinstall node_modules and package.json for your website to work again. Make sure you use cashe clean --force right after.
 
+I learned a jargon term called codebase which is the complete set of source code files and resources that make up a software application.
+
 #### Challenges to improve on:
 1. How to make animate.css for websites to work
 
