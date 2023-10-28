@@ -9,7 +9,7 @@ Visual Studio Code
 Bootstrap
 
 ### What I learn:
-### Sources I used to help me on unexpected obstacles were: FreeCodeCamp, Youtubem Google, Dev Community, nextjs.org, Stack Overflow, and Hithub
+### Sources I used to help me on unexpected obstacles were: FreeCodeCamp, Youtubem Google, Dev Community, nextjs.org, Stack Overflow, and GitHub
 Make sure that you have enough disk space. Depending on how much your website that you are creating in react.js, it can override the limits of your disk space. Clean your cookies, desktop, 
 unnecessary downloads in your computer etc.
 
