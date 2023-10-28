@@ -42,7 +42,8 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 #### Installments:
 1.	npm install react-router-dom
 2.	npm run build
-3.	
+3.	npm install @mui/material @emotion/react @emotion/styled
+4.	npm install @mui/icons-material
 
 Credited: https://www.youtube.com/watch?v=TId6holGVeY
 
