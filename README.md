@@ -41,10 +41,12 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 
 #### Installments:
 1.	npm install react-router-dom
-2.	npm run build
-3.	npm install @mui/material @emotion/react @emotion/styled
-4.	npm install @mui/icons-material
-5.	npm install -g react-devtools
+2.	"start": "react-scripts --max_old_space_size=4096 start"
+    "build": "react-scripts --max_old_space_size=4096 build"
+3.	npm run build
+4.	npm install @mui/material @emotion/react @emotion/styled
+5.	npm install @mui/icons-material
+6.	npm install -g react-devtools
 
 Credited: https://www.youtube.com/watch?v=TId6holGVeY
 
