@@ -37,8 +37,12 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 5. I had to put <div><img src={images} alt="whatever description for the picture" /></div>, which allowed all of my four bikes to showcase in the browser.
 
 #### Weakness so far:
-1.	flexbox is my weakness
+1.	ArrayList/Mapping
 
+#### Installments:
+1.	npm install react-router-dom
+2.	npm run build
+3.	
 
 Credited: https://www.youtube.com/watch?v=TId6holGVeY
 
