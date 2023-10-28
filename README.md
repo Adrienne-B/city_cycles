@@ -44,6 +44,7 @@ Sometimes you have to uninstall and then reinstall node_modules and package.json
 2.	npm run build
 3.	npm install @mui/material @emotion/react @emotion/styled
 4.	npm install @mui/icons-material
+5.	npm install -g react-devtools
 
 Credited: https://www.youtube.com/watch?v=TId6holGVeY
 
